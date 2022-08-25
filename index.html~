@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="typing.css">
+
+    <style>
+
+
+      .button {
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  font-family: Helvetica
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+      }
+
+      .button1 {
+	  background-color: rgb(36, 36, 36);
+	  color: green;
+	  
+      }
+
+      .button1:hover {
+	  background-color: green;
+	  color: white;
+      }
+
+      .button2 {
+	  background-color: rgb(36, 36, 36);
+	  color: green;
+      }
+
+      .button2:hover {
+	  background-color: green;
+	  color: white;
+      }
+
+      .button3 {
+	  background-color: rgb(36, 36, 36);
+	  color: green;
+      }
+
+      .button3:hover {
+	  background-color: green;
+	  color: white;
+      }
+
+    </style>
+
+
+  </head>
+  
+  <body style= "background-color:rgb(36, 36, 36);">
+<center>
+    <font color= "white"> <h1 style= font-family:helvetica>Adheesh Katru</h1>
+</center>
+      <div class="css-typing">
+<center>
+  <p>
+    print('Hello, world!')
+  </p>
+  <p>
+    System.out.println("Hello, world!");
+  </p>
+  <p>
+    Console.WriteLine("Hello, world!");
+  </p>
+</center>
+  </div>
+<center>
+      <p style= font-family:helvetica>Aspiring Programmer at Allen High School</p>
+
+</center>
+
+
+    </font>
+
+<center>
+<button class="button button1" href="info.html">About Me</button>
+<button class="button button2">My Portfolio</button>
+<button class="button button3">Previous Work</button>
+</center>
+
+  </body>
+
+
+  </html>
