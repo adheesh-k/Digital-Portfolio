@@ -55,15 +55,15 @@
 
   <center>
 
-    <h1>Projects</h1>
+    <h1>Business Plan</h1>
     
-    <p>Projects developed during CS-III.</p>
+    <p>The process of my independent study project.</p>
 
     <center>
 
 <center>
-  <a href="Optimal Sort.html"<button class="button button1">Optimal Sort</button></a>
-  <a href="Business%20Plan/Business-Plan.html"<button class="button button2">Business Plan</button></a>
+  <a href="index.html"<button class="button button1">ISP Proposal</button></a>
+  <a href="considered.html"<button class="button button2">Considered ISPs</button></a>
 
      </center>
 
