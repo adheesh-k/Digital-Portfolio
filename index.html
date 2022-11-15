@@ -11,7 +11,6 @@
 	  border: none;
 	  color: white;
 	  padding: 16px 32px;
-	  text-align: center;
 	  font-family: helvetica
 	  text-decoration: none;
 	  display: inline-block;
@@ -64,19 +63,45 @@
 	  background-color: green;
 	  color: white;
       }
-
       
+      .center {
+	  margin: 0;
+	  position: absolute;
+	  top: 40%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+      }
+      
+      .title {
+	  font-size: 60px;
+	  font-family: helvetica;
+	  color: white;
+	  font-weight: bold;
+      }
+
+      .footer {
+	  margin: 0;
+	  position: absolute;
+	  top: 90%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+      }
+       
     </style>
 
 
   </head>
   
   <body style= "background-color:rgb(36, 36, 36);">
-<center>
-    <font color= "white"> <h1 style= font-family:helvetica>Adheesh Katru</h1>
-</center>
-      <div class="css-typing">
-<center>
+    <div class="center">
+      <center>
+	<div class="title">Adheesh Katru</div>
+	<center>
+	  <br>
+<div class="css-typing">
+  
   <p>
     print('Hello, world!')
   </p>
@@ -86,36 +111,31 @@
   <p>
     Console.WriteLine("Hello, world!");
   </p>
-</center>
-  </div>
-<center>
-      <p style= font-family:helvetica>Aspiring Programmer at Allen High School</p>
 
-</center>
+</div>
 
+<font color=white>
+  
+  <p style= font-family:helvetica>Aspiring Programmer at Allen High School</p>
 
     </font>
 
-<center>
+
 <a href="about_me.html"<button class="button button1">About Me</button></a>
 <a href="portfolio.html"<button class="button button2">My Portfolio</button></a>
 <a href="previous-work.html"<button class="button button3">Previous Work</button></a>
 <a href="CS-III/CS-III.html"<button class="button button4">CS-III</button></a>
-</center>
 
 
-<footer>
+</div>
 
-<center>
+<div class="footer">
 
 <font color= white>
   <p style= font-family:helvetica>My portfolio lives at: <a href="https://adheesh-k.github.io">https://adheesh-k.github.io</a></p>
 </font>
 
-</center>
-
-
-</footer>
+</div>
 
 
   </body>
